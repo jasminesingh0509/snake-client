@@ -11,6 +11,8 @@ const handleUserInput = function(data) {
     connection.write('Move: left');
   } else if (data === 'd') {
     connection.write('Move: right');
+  } else if (data === 'l') {
+    connection.write('Say: YASSSS');
   }
 };
 
